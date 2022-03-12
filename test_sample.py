@@ -15,7 +15,7 @@ class TestSampleMethods(unittest.TestCase):
         Test increments
         """
         self.assertEqual(increment_by_two(-2),0)
-        self.assertEqual(increment_by_two(0),1)
+        self.assertEqual(increment_by_two(0),2)
         self.assertEqual(increment_by_two(3),5)
 
 if __name__ == '__main__':
