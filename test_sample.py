@@ -9,9 +9,14 @@ class TestSampleMethods(unittest.TestCase):
     """
     Test harness
     """
-    unittest.TestCase.assertEqual(increment_by_two(-2),0)
-    unittest.TestCase.assertEqual(increment_by_two(0),1)
-    unittest.TestCase.assertEqual(increment_by_two(3),5)
+
+    def test_increment_by_two(self):
+        """
+        Test increments
+        """
+        self.assertEqual(increment_by_two(-2),0)
+        self.TestCase.assertEqual(increment_by_two(0),1)
+        self.TestCase.assertEqual(increment_by_two(3),5)
 
 if __name__ == '__main__':
     unittest.main()
